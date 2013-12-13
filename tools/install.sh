@@ -22,5 +22,6 @@ fi
 
 echo "link ~/.tmux.conf to ~/.tmux-powerline/tmux.conf"
 ln -s ~/.tmux-powerline/tmux.conf ~/.tmux.conf
+tmux source-file ~/.tmux.conf
 
 echo "Your tmux is now configured!"
