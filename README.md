@@ -88,6 +88,12 @@ brew install homebrew/dupes/grep
 
 Preinstalled `grep` in FreeBSD doesn't support Perl regexp. Solution is rather simple -- you need to use `textproc/gnugrep` port instead. You also need to make sure, that it has support for PCRE and is compiled with `--enable-perl-regexp` flag.
 
+# Quick Installation
+
+```
+$ curl -L https://github.com/jhezjkp/tmux-powerline/raw/master/tools/install.sh | sh
+```
+
 
 # Installation
 Start with checking out the repository with:
