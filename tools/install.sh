@@ -7,7 +7,7 @@ then
 fi
 
 echo "Cloning tmux-powerline..."
-hash git >/dev/null && /usr/bin/env git clone git@github.com:jhezjkp/tmux-powerline.git ~/.tmux-powerline || {
+hash git >/dev/null && /usr/bin/env git clone https://github.com/jhezjkp/tmux-powerline.git ~/.tmux-powerline || {
     echo "git not installed"
     exit
 }
